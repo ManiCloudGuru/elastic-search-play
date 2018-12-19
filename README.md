@@ -13,3 +13,7 @@
 
 dotnet tool install --global coverlet.console
 
+
+sh "dotnet tool uninstall --global dotnet-sonarscanner"
+sh "dotnet tool install --global dotnet-sonarscanner"
+
